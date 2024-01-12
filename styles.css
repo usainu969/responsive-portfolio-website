@@ -1,0 +1,265 @@
+/* ----------------common shared styles------------- */
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* --------nav related styles---------- */
+
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.portfolio-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    border: 0;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+
+
+/* banner section styles */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 50px;
+    color: #474747;
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+/* ---------main section style---------- */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section styles */
+
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+
+/* What I do */
+
+#what-i-do-description {
+    padding: 30px 150px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    text-align: justify;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+
+
+/* ------Resume Section style--------- */
+
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+    padding: 0 200px;
+}
+
+.resume-column {
+    margin-top: 20px;
+
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-item {
+    background: #FFF;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 50px 100px;
+}
+
+/* ---------footer styles add---------- */
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+footer .section-title,
+.section-description {
+    text-align: justify;
+}
+
+.section-description {
+    margin-bottom: 30px;
+}
+
+.social-link a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
