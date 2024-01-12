@@ -170,7 +170,6 @@ main section {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px;
 
 }
 
@@ -187,8 +186,8 @@ main section {
 
 .resume-container {
     display: flex;
-    gap: 70px;
-    padding: 0 200px;
+    gap: 40px;
+    padding: 0 100px;
 }
 
 .resume-column {
@@ -213,7 +212,7 @@ main section {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px;
+    text-align: justify;
 }
 
 .resume-item {
@@ -262,4 +261,77 @@ textarea {
     background: #FFF;
     border: 0;
     width: 100%;
+}
+
+
+/* --------Responsive styles----------- */
+
+/* ----mobiles device---- */
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .header{
+        background-image:none;
+    }
+    nav, 
+    nav > ul,
+    .banner, 
+    .skills-container, 
+    .resume-container, 
+    .about-info-container, 
+    .header, footer{
+        flex-direction: column;
+    }
+
+    nav > ul{
+        gap:10px;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .banner,
+    #what-i-do-description{
+        padding: 20px;
+    }
+
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .resume-container{
+        padding: 0 50px
+    }
+    footer, .about{
+        padding:10px;
+    }
+
+    .footer-column{
+        width:100%;
+    }
+    .contact input[type="text"], .contact input[type="email"],
+textarea{
+    width: 80%;
+}
+}
+
+
+    
+
+/* ---------tablet or medium device--------- */
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .resume-container{
+        padding: 0 50px;
+        gap: 50px;
+    }
+    .footer-column{
+        width:100%;
+}
+.btn-primary{
+    margin-bottom: 15px;
+}
 }
